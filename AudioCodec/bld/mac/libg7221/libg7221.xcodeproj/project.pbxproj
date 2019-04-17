@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		4129811317B24863000EAEDE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4129811217B24863000EAEDE /* Cocoa.framework */; };
+		878038862266DFE900A894BB /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 878038822266DFE900A894BB /* types.h */; };
+		878038872266DFE900A894BB /* cintrins.h in Headers */ = {isa = PBXBuildFile; fileRef = 878038832266DFE900A894BB /* cintrins.h */; };
+		878038882266DFE900A894BB /* g7221.h in Headers */ = {isa = PBXBuildFile; fileRef = 878038842266DFE900A894BB /* g7221.h */; };
+		878038892266DFE900A894BB /* g7221_defs.h in Headers */ = {isa = PBXBuildFile; fileRef = 878038852266DFE900A894BB /* g7221_defs.h */; };
+		878038912266DFFD00A894BB /* g7221_common_code.c in Sources */ = {isa = PBXBuildFile; fileRef = 8780388A2266DFFD00A894BB /* g7221_common_code.c */; };
+		878038922266DFFD00A894BB /* g7221_decoder_code.c in Sources */ = {isa = PBXBuildFile; fileRef = 8780388B2266DFFD00A894BB /* g7221_decoder_code.c */; };
+		878038932266DFFD00A894BB /* g7221_common_data.c in Sources */ = {isa = PBXBuildFile; fileRef = 8780388C2266DFFD00A894BB /* g7221_common_data.c */; };
+		878038942266DFFD00A894BB /* cintrins.c in Sources */ = {isa = PBXBuildFile; fileRef = 8780388D2266DFFD00A894BB /* cintrins.c */; };
+		878038952266DFFD00A894BB /* g7221_encoder_code.c in Sources */ = {isa = PBXBuildFile; fileRef = 8780388E2266DFFD00A894BB /* g7221_encoder_code.c */; };
+		878038962266DFFD00A894BB /* g7221_decoder_data.c in Sources */ = {isa = PBXBuildFile; fileRef = 8780388F2266DFFD00A894BB /* g7221_decoder_data.c */; };
+		878038972266DFFD00A894BB /* g7221_encoder_data.c in Sources */ = {isa = PBXBuildFile; fileRef = 878038902266DFFD00A894BB /* g7221_encoder_data.c */; };
 		87863FD82255F0DC008496ED /* libg7221-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 87863FD72255F0DC008496ED /* libg7221-Prefix.pch */; };
-		87FB022022657EF7005A3376 /* g7221_defs.h in Headers */ = {isa = PBXBuildFile; fileRef = 87FB021C22657EF7005A3376 /* g7221_defs.h */; };
-		87FB022122657EF7005A3376 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 87FB021D22657EF7005A3376 /* types.h */; };
-		87FB022222657EF7005A3376 /* cintrins.h in Headers */ = {isa = PBXBuildFile; fileRef = 87FB021E22657EF7005A3376 /* cintrins.h */; };
-		87FB022322657EF7005A3376 /* g7221.h in Headers */ = {isa = PBXBuildFile; fileRef = 87FB021F22657EF7005A3376 /* g7221.h */; };
-		87FB022B22657F0B005A3376 /* g7221_decoder_code.c in Sources */ = {isa = PBXBuildFile; fileRef = 87FB022422657F0B005A3376 /* g7221_decoder_code.c */; };
-		87FB022C22657F0B005A3376 /* g7221_encoder_code.c in Sources */ = {isa = PBXBuildFile; fileRef = 87FB022522657F0B005A3376 /* g7221_encoder_code.c */; };
-		87FB022D22657F0B005A3376 /* cintrins.c in Sources */ = {isa = PBXBuildFile; fileRef = 87FB022622657F0B005A3376 /* cintrins.c */; };
-		87FB022E22657F0B005A3376 /* g7221_common_data.c in Sources */ = {isa = PBXBuildFile; fileRef = 87FB022722657F0B005A3376 /* g7221_common_data.c */; };
-		87FB022F22657F0B005A3376 /* g7221_decoder_data.c in Sources */ = {isa = PBXBuildFile; fileRef = 87FB022822657F0B005A3376 /* g7221_decoder_data.c */; };
-		87FB023022657F0B005A3376 /* g7221_encoder_data.c in Sources */ = {isa = PBXBuildFile; fileRef = 87FB022922657F0B005A3376 /* g7221_encoder_data.c */; };
-		87FB023122657F0B005A3376 /* g7221_common_code.c in Sources */ = {isa = PBXBuildFile; fileRef = 87FB022A22657F0B005A3376 /* g7221_common_code.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,19 +28,19 @@
 		4129811517B24863000EAEDE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		4129811617B24863000EAEDE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		4129811717B24863000EAEDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		878038812266DFD400A894BB /* Config */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Config; path = ../../../Config; sourceTree = "<group>"; };
+		878038822266DFE900A894BB /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = types.h; path = ../../../../vendor/g7221/types.h; sourceTree = "<group>"; };
+		878038832266DFE900A894BB /* cintrins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cintrins.h; path = ../../../../vendor/g7221/cintrins.h; sourceTree = "<group>"; };
+		878038842266DFE900A894BB /* g7221.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = g7221.h; path = ../../../../vendor/g7221/g7221.h; sourceTree = "<group>"; };
+		878038852266DFE900A894BB /* g7221_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = g7221_defs.h; path = ../../../../vendor/g7221/g7221_defs.h; sourceTree = "<group>"; };
+		8780388A2266DFFD00A894BB /* g7221_common_code.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = g7221_common_code.c; path = ../../../../vendor/g7221/g7221_common_code.c; sourceTree = "<group>"; };
+		8780388B2266DFFD00A894BB /* g7221_decoder_code.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = g7221_decoder_code.c; path = ../../../../vendor/g7221/g7221_decoder_code.c; sourceTree = "<group>"; };
+		8780388C2266DFFD00A894BB /* g7221_common_data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = g7221_common_data.c; path = ../../../../vendor/g7221/g7221_common_data.c; sourceTree = "<group>"; };
+		8780388D2266DFFD00A894BB /* cintrins.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cintrins.c; path = ../../../../vendor/g7221/cintrins.c; sourceTree = "<group>"; };
+		8780388E2266DFFD00A894BB /* g7221_encoder_code.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = g7221_encoder_code.c; path = ../../../../vendor/g7221/g7221_encoder_code.c; sourceTree = "<group>"; };
+		8780388F2266DFFD00A894BB /* g7221_decoder_data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = g7221_decoder_data.c; path = ../../../../vendor/g7221/g7221_decoder_data.c; sourceTree = "<group>"; };
+		878038902266DFFD00A894BB /* g7221_encoder_data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = g7221_encoder_data.c; path = ../../../../vendor/g7221/g7221_encoder_data.c; sourceTree = "<group>"; };
 		87863FD72255F0DC008496ED /* libg7221-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "libg7221-Prefix.pch"; path = "libg7221/libg7221-Prefix.pch"; sourceTree = "<group>"; };
-		87FB021C22657EF7005A3376 /* g7221_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = g7221_defs.h; path = ../../../vendor/g7221/g7221_defs.h; sourceTree = "<group>"; };
-		87FB021D22657EF7005A3376 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = types.h; path = ../../../vendor/g7221/types.h; sourceTree = "<group>"; };
-		87FB021E22657EF7005A3376 /* cintrins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cintrins.h; path = ../../../vendor/g7221/cintrins.h; sourceTree = "<group>"; };
-		87FB021F22657EF7005A3376 /* g7221.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = g7221.h; path = ../../../vendor/g7221/g7221.h; sourceTree = "<group>"; };
-		87FB022422657F0B005A3376 /* g7221_decoder_code.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = g7221_decoder_code.c; path = ../../../vendor/g7221/g7221_decoder_code.c; sourceTree = "<group>"; };
-		87FB022522657F0B005A3376 /* g7221_encoder_code.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = g7221_encoder_code.c; path = ../../../vendor/g7221/g7221_encoder_code.c; sourceTree = "<group>"; };
-		87FB022622657F0B005A3376 /* cintrins.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cintrins.c; path = ../../../vendor/g7221/cintrins.c; sourceTree = "<group>"; };
-		87FB022722657F0B005A3376 /* g7221_common_data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = g7221_common_data.c; path = ../../../vendor/g7221/g7221_common_data.c; sourceTree = "<group>"; };
-		87FB022822657F0B005A3376 /* g7221_decoder_data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = g7221_decoder_data.c; path = ../../../vendor/g7221/g7221_decoder_data.c; sourceTree = "<group>"; };
-		87FB022922657F0B005A3376 /* g7221_encoder_data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = g7221_encoder_data.c; path = ../../../vendor/g7221/g7221_encoder_data.c; sourceTree = "<group>"; };
-		87FB022A22657F0B005A3376 /* g7221_common_code.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = g7221_common_code.c; path = ../../../vendor/g7221/g7221_common_code.c; sourceTree = "<group>"; };
-		87FB023622657F99005A3376 /* Config */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Config; path = ../../Config; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		4129810617B24863000EAEDE = {
 			isa = PBXGroup;
 			children = (
-				87FB023622657F99005A3376 /* Config */,
+				878038812266DFD400A894BB /* Config */,
 				87863FD62255F0AB008496ED /* Supporting Files */,
 				87863FCB2255EEA4008496ED /* inc */,
 				87863FBC2255EE85008496ED /* src */,
@@ -97,13 +97,13 @@
 		87863FBC2255EE85008496ED /* src */ = {
 			isa = PBXGroup;
 			children = (
-				87FB022622657F0B005A3376 /* cintrins.c */,
-				87FB022A22657F0B005A3376 /* g7221_common_code.c */,
-				87FB022722657F0B005A3376 /* g7221_common_data.c */,
-				87FB022422657F0B005A3376 /* g7221_decoder_code.c */,
-				87FB022822657F0B005A3376 /* g7221_decoder_data.c */,
-				87FB022522657F0B005A3376 /* g7221_encoder_code.c */,
-				87FB022922657F0B005A3376 /* g7221_encoder_data.c */,
+				8780388D2266DFFD00A894BB /* cintrins.c */,
+				8780388A2266DFFD00A894BB /* g7221_common_code.c */,
+				8780388C2266DFFD00A894BB /* g7221_common_data.c */,
+				8780388B2266DFFD00A894BB /* g7221_decoder_code.c */,
+				8780388F2266DFFD00A894BB /* g7221_decoder_data.c */,
+				8780388E2266DFFD00A894BB /* g7221_encoder_code.c */,
+				878038902266DFFD00A894BB /* g7221_encoder_data.c */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -111,10 +111,10 @@
 		87863FCB2255EEA4008496ED /* inc */ = {
 			isa = PBXGroup;
 			children = (
-				87FB021E22657EF7005A3376 /* cintrins.h */,
-				87FB021C22657EF7005A3376 /* g7221_defs.h */,
-				87FB021F22657EF7005A3376 /* g7221.h */,
-				87FB021D22657EF7005A3376 /* types.h */,
+				878038832266DFE900A894BB /* cintrins.h */,
+				878038852266DFE900A894BB /* g7221_defs.h */,
+				878038842266DFE900A894BB /* g7221.h */,
+				878038822266DFE900A894BB /* types.h */,
 			);
 			name = inc;
 			sourceTree = "<group>";
@@ -134,11 +134,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87FB022122657EF7005A3376 /* types.h in Headers */,
-				87FB022322657EF7005A3376 /* g7221.h in Headers */,
-				87FB022022657EF7005A3376 /* g7221_defs.h in Headers */,
-				87FB022222657EF7005A3376 /* cintrins.h in Headers */,
+				878038882266DFE900A894BB /* g7221.h in Headers */,
+				878038862266DFE900A894BB /* types.h in Headers */,
+				878038892266DFE900A894BB /* g7221_defs.h in Headers */,
 				87863FD82255F0DC008496ED /* libg7221-Prefix.pch in Headers */,
+				878038872266DFE900A894BB /* cintrins.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,13 +194,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87FB022E22657F0B005A3376 /* g7221_common_data.c in Sources */,
-				87FB022F22657F0B005A3376 /* g7221_decoder_data.c in Sources */,
-				87FB023022657F0B005A3376 /* g7221_encoder_data.c in Sources */,
-				87FB022B22657F0B005A3376 /* g7221_decoder_code.c in Sources */,
-				87FB023122657F0B005A3376 /* g7221_common_code.c in Sources */,
-				87FB022D22657F0B005A3376 /* cintrins.c in Sources */,
-				87FB022C22657F0B005A3376 /* g7221_encoder_code.c in Sources */,
+				878038962266DFFD00A894BB /* g7221_decoder_data.c in Sources */,
+				878038912266DFFD00A894BB /* g7221_common_code.c in Sources */,
+				878038942266DFFD00A894BB /* cintrins.c in Sources */,
+				878038952266DFFD00A894BB /* g7221_encoder_code.c in Sources */,
+				878038972266DFFD00A894BB /* g7221_encoder_data.c in Sources */,
+				878038932266DFFD00A894BB /* g7221_common_data.c in Sources */,
+				878038922266DFFD00A894BB /* g7221_decoder_code.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
