@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "win32test", "win32test.vcproj", "{87AF0E7F-607B-40D7-9D19-F9BF6DFC45F3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C880A036-5A0E-4D91-837E-EA1FF6C506FD} = {C880A036-5A0E-4D91-837E-EA1FF6C506FD}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iLBC", "..\win32\iLBC.vcproj", "{C880A036-5A0E-4D91-837E-EA1FF6C506FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87AF0E7F-607B-40D7-9D19-F9BF6DFC45F3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{87AF0E7F-607B-40D7-9D19-F9BF6DFC45F3}.Debug|Win32.Build.0 = Debug|Win32
+		{87AF0E7F-607B-40D7-9D19-F9BF6DFC45F3}.Release|Win32.ActiveCfg = Release|Win32
+		{87AF0E7F-607B-40D7-9D19-F9BF6DFC45F3}.Release|Win32.Build.0 = Release|Win32
+		{C880A036-5A0E-4D91-837E-EA1FF6C506FD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C880A036-5A0E-4D91-837E-EA1FF6C506FD}.Debug|Win32.Build.0 = Debug|Win32
+		{C880A036-5A0E-4D91-837E-EA1FF6C506FD}.Release|Win32.ActiveCfg = Release|Win32
+		{C880A036-5A0E-4D91-837E-EA1FF6C506FD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C880A036-5A0E-4D91-837E-EA1FF6C506FD}</ProjectGuid>
+    <RootNamespace>iLBC</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\..\..\..\..\..\..\..\mediaengine\libs\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\..\..\..\..\..\..\..\..\mediaengine\objs\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\..\..\..\..\..\..\..\..\mediaengine\libs\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\..\..\..\..\..\..\..\..\mediaengine\objs\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\..\..\..\..\..\..\mediaengine\libs\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\..\..\..\..\..\..\..\..\mediaengine\objs\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\..\..\..\..\..\..\..\..\mediaengine\libs\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\..\..\..\..\..\..\..\..\mediaengine\objs\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../interface;../../../../../common_audio/signal_processing/include;../../;../../../../../;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../interface;../../../../../common_audio/signal_processing/include;../../;../../../../../;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>../interface;../../../../../common_audio/signal_processing/include;../../;../../../../../;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>../interface;../../../../../common_audio/signal_processing/include;../../;../../../../../;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\auto_correlation.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\auto_corr_to_refl_coef.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\complex_bit_reverse.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\complex_fft.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\copy_set_operations.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\cross_correlation.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\division_operations.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\dot_product_with_scale.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\downsample_fast.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\energy.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\filter_ar.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\filter_ar_fast_q12.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\filter_ma_fast_q12.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\get_hanning_window.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\get_scaling_square.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\ilbc_specific_functions.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\levinson_durbin.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\lpc_to_refl_coef.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\min_max_operations.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\randomization_functions.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\real_fft.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\refl_coef_to_lpc.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\resample.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\resample_48khz.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\resample_by_2.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\resample_by_2_internal.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\resample_fractional.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\splitting_filter.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\spl_init.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\spl_sqrt.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\spl_sqrt_floor.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\spl_version.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\sqrt_of_one_minus_x_squared.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\vector_scaling_operations.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\webrtc_fft_t_1024_8.c" />
+    <ClCompile Include="..\..\..\..\..\common_audio\signal_processing\webrtc_fft_t_rad.c" />
+    <ClCompile Include="..\abs_quant.c" />
+    <ClCompile Include="..\abs_quant_loop.c" />
+    <ClCompile Include="..\augmented_cb_corr.c" />
+    <ClCompile Include="..\bw_expand.c" />
+    <ClCompile Include="..\cb_construct.c" />
+    <ClCompile Include="..\cb_mem_energy.c" />
+    <ClCompile Include="..\cb_mem_energy_augmentation.c" />
+    <ClCompile Include="..\cb_mem_energy_calc.c" />
+    <ClCompile Include="..\cb_search.c" />
+    <ClCompile Include="..\cb_search_core.c" />
+    <ClCompile Include="..\cb_update_best_index.c" />
+    <ClCompile Include="..\chebyshev.c" />
+    <ClCompile Include="..\comp_corr.c" />
+    <ClCompile Include="..\constants.c" />
+    <ClCompile Include="..\create_augmented_vec.c" />
+    <ClCompile Include="..\decode.c" />
+    <ClCompile Include="..\decode_residual.c" />
+    <ClCompile Include="..\decoder_interpolate_lsf.c" />
+    <ClCompile Include="..\do_plc.c" />
+    <ClCompile Include="..\encode.c" />
+    <ClCompile Include="..\energy_inverse.c" />
+    <ClCompile Include="..\enh_upsample.c" />
+    <ClCompile Include="..\enhancer.c" />
+    <ClCompile Include="..\enhancer_interface.c" />
+    <ClCompile Include="..\filtered_cb_vecs.c" />
+    <ClCompile Include="..\frame_classify.c" />
+    <ClCompile Include="..\gain_dequant.c" />
+    <ClCompile Include="..\gain_quant.c" />
+    <ClCompile Include="..\get_cd_vec.c" />
+    <ClCompile Include="..\get_lsp_poly.c" />
+    <ClCompile Include="..\get_sync_seq.c" />
+    <ClCompile Include="..\hp_input.c" />
+    <ClCompile Include="..\hp_output.c" />
+    <ClCompile Include="..\ilbc.c" />
+    <ClCompile Include="..\index_conv_dec.c" />
+    <ClCompile Include="..\index_conv_enc.c" />
+    <ClCompile Include="..\init_decode.c" />
+    <ClCompile Include="..\init_encode.c" />
+    <ClCompile Include="..\interpolate.c" />
+    <ClCompile Include="..\interpolate_samples.c" />
+    <ClCompile Include="..\lpc_encode.c" />
+    <ClCompile Include="..\lsf_check.c" />
+    <ClCompile Include="..\lsf_interpolate_to_poly_dec.c" />
+    <ClCompile Include="..\lsf_interpolate_to_poly_enc.c" />
+    <ClCompile Include="..\lsf_to_lsp.c" />
+    <ClCompile Include="..\lsf_to_poly.c" />
+    <ClCompile Include="..\lsp_to_lsf.c" />
+    <ClCompile Include="..\my_corr.c" />
+    <ClCompile Include="..\nearest_neighbor.c" />
+    <ClCompile Include="..\pack_bits.c" />
+    <ClCompile Include="..\poly_to_lsf.c" />
+    <ClCompile Include="..\poly_to_lsp.c" />
+    <ClCompile Include="..\refiner.c" />
+    <ClCompile Include="..\simple_interpolate_lsf.c" />
+    <ClCompile Include="..\simple_lpc_analysis.c" />
+    <ClCompile Include="..\simple_lsf_dequant.c" />
+    <ClCompile Include="..\simple_lsf_quant.c" />
+    <ClCompile Include="..\smooth.c" />
+    <ClCompile Include="..\smooth_out_data.c" />
+    <ClCompile Include="..\sort_sq.c" />
+    <ClCompile Include="..\split_vq.c" />
+    <ClCompile Include="..\state_construct.c" />
+    <ClCompile Include="..\state_search.c" />
+    <ClCompile Include="..\swap_bytes.c" />
+    <ClCompile Include="..\unpack_bits.c" />
+    <ClCompile Include="..\vq3.c" />
+    <ClCompile Include="..\vq4.c" />
+    <ClCompile Include="..\window32_w32.c" />
+    <ClCompile Include="..\xcorr_coef.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\abs_quant.h" />
+    <ClInclude Include="..\abs_quant_loop.h" />
+    <ClInclude Include="..\augmented_cb_corr.h" />
+    <ClInclude Include="..\bw_expand.h" />
+    <ClInclude Include="..\cb_construct.h" />
+    <ClInclude Include="..\cb_mem_energy.h" />
+    <ClInclude Include="..\cb_mem_energy_augmentation.h" />
+    <ClInclude Include="..\cb_mem_energy_calc.h" />
+    <ClInclude Include="..\cb_search.h" />
+    <ClInclude Include="..\cb_search_core.h" />
+    <ClInclude Include="..\cb_update_best_index.h" />
+    <ClInclude Include="..\chebyshev.h" />
+    <ClInclude Include="..\comp_corr.h" />
+    <ClInclude Include="..\constants.h" />
+    <ClInclude Include="..\create_augmented_vec.h" />
+    <ClInclude Include="..\decode.h" />
+    <ClInclude Include="..\decode_residual.h" />
+    <ClInclude Include="..\decoder_interpolate_lsf.h" />
+    <ClInclude Include="..\defines.h" />
+    <ClInclude Include="..\do_plc.h" />
+    <ClInclude Include="..\encode.h" />
+    <ClInclude Include="..\energy_inverse.h" />
+    <ClInclude Include="..\enh_upsample.h" />
+    <ClInclude Include="..\enhancer.h" />
+    <ClInclude Include="..\enhancer_interface.h" />
+    <ClInclude Include="..\filtered_cb_vecs.h" />
+    <ClInclude Include="..\frame_classify.h" />
+    <ClInclude Include="..\gain_dequant.h" />
+    <ClInclude Include="..\gain_quant.h" />
+    <ClInclude Include="..\get_cd_vec.h" />
+    <ClInclude Include="..\get_lsp_poly.h" />
+    <ClInclude Include="..\get_sync_seq.h" />
+    <ClInclude Include="..\hp_input.h" />
+    <ClInclude Include="..\hp_output.h" />
+    <ClInclude Include="..\interface\ilbc.h" />
+    <ClInclude Include="..\index_conv_dec.h" />
+    <ClInclude Include="..\index_conv_enc.h" />
+    <ClInclude Include="..\init_decode.h" />
+    <ClInclude Include="..\init_encode.h" />
+    <ClInclude Include="..\interpolate.h" />
+    <ClInclude Include="..\interpolate_samples.h" />
+    <ClInclude Include="..\lpc_encode.h" />
+    <ClInclude Include="..\lsf_check.h" />
+    <ClInclude Include="..\lsf_interpolate_to_poly_dec.h" />
+    <ClInclude Include="..\lsf_interpolate_to_poly_enc.h" />
+    <ClInclude Include="..\lsf_to_lsp.h" />
+    <ClInclude Include="..\lsf_to_poly.h" />
+    <ClInclude Include="..\lsp_to_lsf.h" />
+    <ClInclude Include="..\my_corr.h" />
+    <ClInclude Include="..\nearest_neighbor.h" />
+    <ClInclude Include="..\pack_bits.h" />
+    <ClInclude Include="..\poly_to_lsf.h" />
+    <ClInclude Include="..\poly_to_lsp.h" />
+    <ClInclude Include="..\refiner.h" />
+    <ClInclude Include="..\simple_interpolate_lsf.h" />
+    <ClInclude Include="..\simple_lpc_analysis.h" />
+    <ClInclude Include="..\simple_lsf_dequant.h" />
+    <ClInclude Include="..\simple_lsf_quant.h" />
+    <ClInclude Include="..\smooth.h" />
+    <ClInclude Include="..\smooth_out_data.h" />
+    <ClInclude Include="..\sort_sq.h" />
+    <ClInclude Include="..\split_vq.h" />
+    <ClInclude Include="..\state_construct.h" />
+    <ClInclude Include="..\state_search.h" />
+    <ClInclude Include="..\swap_bytes.h" />
+    <ClInclude Include="..\unpack_bits.h" />
+    <ClInclude Include="..\vq3.h" />
+    <ClInclude Include="..\vq4.h" />
+    <ClInclude Include="..\window32_w32.h" />
+    <ClInclude Include="..\xcorr_coef.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

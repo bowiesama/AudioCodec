@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4129815317B24923000EAEDE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4129815217B24923000EAEDE /* Cocoa.framework */; };
+		87803B982268545A00A894BB /* tab_ld8a.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B752268545800A894BB /* tab_ld8a.c */; };
+		87803B992268545A00A894BB /* qsidlsf.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B762268545800A894BB /* qsidlsf.c */; };
+		87803B9A2268545A00A894BB /* basic_op.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B772268545800A894BB /* basic_op.c */; };
+		87803B9B2268545A00A894BB /* post_pro.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B782268545800A894BB /* post_pro.c */; };
+		87803B9C2268545A00A894BB /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B792268545800A894BB /* util.c */; };
+		87803B9D2268545A00A894BB /* bits.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B7A2268545800A894BB /* bits.c */; };
+		87803B9E2268545A00A894BB /* dec_sid.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B7B2268545800A894BB /* dec_sid.c */; };
+		87803B9F2268545A00A894BB /* pred_lt3.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B7C2268545800A894BB /* pred_lt3.c */; };
+		87803BA02268545A00A894BB /* qua_gain.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B7D2268545900A894BB /* qua_gain.c */; };
+		87803BA12268545A00A894BB /* gainpred.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B7E2268545900A894BB /* gainpred.c */; };
+		87803BA22268545A00A894BB /* vad.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B7F2268545900A894BB /* vad.c */; };
+		87803BA32268545A00A894BB /* cor_func.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B802268545900A894BB /* cor_func.c */; };
+		87803BA42268545A00A894BB /* lspdec.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B812268545900A894BB /* lspdec.c */; };
+		87803BA52268545A00A894BB /* dec_ld8a.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B822268545900A894BB /* dec_ld8a.c */; };
+		87803BA62268545A00A894BB /* p_parity.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B832268545900A894BB /* p_parity.c */; };
+		87803BA72268545A00A894BB /* pitch_a.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B842268545900A894BB /* pitch_a.c */; };
+		87803BA82268545A00A894BB /* cod_ld8a.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B852268545900A894BB /* cod_ld8a.c */; };
+		87803BA92268545A00A894BB /* lpc.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B862268545900A894BB /* lpc.c */; };
+		87803BAA2268545A00A894BB /* dspfunc.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B872268545900A894BB /* dspfunc.c */; };
+		87803BAB2268545A00A894BB /* pre_proc.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B882268545900A894BB /* pre_proc.c */; };
+		87803BAC2268545A00A894BB /* dtx.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B892268545900A894BB /* dtx.c */; };
+		87803BAD2268545A00A894BB /* qua_lsp.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B8A2268545900A894BB /* qua_lsp.c */; };
+		87803BAE2268545A00A894BB /* de_acelp.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B8B2268545900A894BB /* de_acelp.c */; };
+		87803BAF2268545A00A894BB /* lspgetq.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B8C2268545900A894BB /* lspgetq.c */; };
+		87803BB02268545A00A894BB /* postfilt.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B8D2268545900A894BB /* postfilt.c */; };
+		87803BB12268545A00A894BB /* tab_dtx.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B8E2268545900A894BB /* tab_dtx.c */; };
+		87803BB22268545A00A894BB /* dec_lag3.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B8F2268545900A894BB /* dec_lag3.c */; };
+		87803BB32268545A00A894BB /* qsidgain.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B902268545A00A894BB /* qsidgain.c */; };
+		87803BB42268545A00A894BB /* filter.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B912268545A00A894BB /* filter.c */; };
+		87803BB52268545A00A894BB /* taming.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B922268545A00A894BB /* taming.c */; };
+		87803BB62268545A00A894BB /* lpcfunc.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B932268545A00A894BB /* lpcfunc.c */; };
+		87803BB72268545A00A894BB /* acelp_ca.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B942268545A00A894BB /* acelp_ca.c */; };
+		87803BB82268545A00A894BB /* dec_gain.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B952268545A00A894BB /* dec_gain.c */; };
+		87803BB92268545A00A894BB /* oper_32b.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B962268545A00A894BB /* oper_32b.c */; };
+		87803BBA2268545A00A894BB /* calcexc.c in Sources */ = {isa = PBXBuildFile; fileRef = 87803B972268545A00A894BB /* calcexc.c */; };
+		87803BC52268548300A894BB /* octet.h in Headers */ = {isa = PBXBuildFile; fileRef = 87803BBB2268548300A894BB /* octet.h */; };
+		87803BC62268548300A894BB /* ld8a.h in Headers */ = {isa = PBXBuildFile; fileRef = 87803BBC2268548300A894BB /* ld8a.h */; };
+		87803BC72268548300A894BB /* oper_32b.h in Headers */ = {isa = PBXBuildFile; fileRef = 87803BBD2268548300A894BB /* oper_32b.h */; };
+		87803BC82268548300A894BB /* tab_dtx.h in Headers */ = {isa = PBXBuildFile; fileRef = 87803BBE2268548300A894BB /* tab_dtx.h */; };
+		87803BC92268548300A894BB /* typedef.h in Headers */ = {isa = PBXBuildFile; fileRef = 87803BBF2268548300A894BB /* typedef.h */; };
+		87803BCA2268548300A894BB /* basic_op.h in Headers */ = {isa = PBXBuildFile; fileRef = 87803BC02268548300A894BB /* basic_op.h */; };
+		87803BCB2268548300A894BB /* vad.h in Headers */ = {isa = PBXBuildFile; fileRef = 87803BC12268548300A894BB /* vad.h */; };
+		87803BCC2268548300A894BB /* dtx.h in Headers */ = {isa = PBXBuildFile; fileRef = 87803BC22268548300A894BB /* dtx.h */; };
+		87803BCD2268548300A894BB /* sid.h in Headers */ = {isa = PBXBuildFile; fileRef = 87803BC32268548300A894BB /* sid.h */; };
+		87803BCE2268548400A894BB /* tab_ld8a.h in Headers */ = {isa = PBXBuildFile; fileRef = 87803BC42268548300A894BB /* tab_ld8a.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4129814F17B24923000EAEDE /* liblibwebrtcg729.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibwebrtcg729.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4129815217B24923000EAEDE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4129815517B24923000EAEDE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4129815617B24923000EAEDE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4129815717B24923000EAEDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87803B6A226851FC00A894BB /* Config */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Config; path = ../../../Config; sourceTree = "<group>"; };
+		87803B752268545800A894BB /* tab_ld8a.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tab_ld8a.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/tab_ld8a.c; sourceTree = "<group>"; };
+		87803B762268545800A894BB /* qsidlsf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = qsidlsf.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/qsidlsf.c; sourceTree = "<group>"; };
+		87803B772268545800A894BB /* basic_op.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = basic_op.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/basic_op.c; sourceTree = "<group>"; };
+		87803B782268545800A894BB /* post_pro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = post_pro.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/post_pro.c; sourceTree = "<group>"; };
+		87803B792268545800A894BB /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = util.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/util.c; sourceTree = "<group>"; };
+		87803B7A2268545800A894BB /* bits.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bits.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/bits.c; sourceTree = "<group>"; };
+		87803B7B2268545800A894BB /* dec_sid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dec_sid.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/dec_sid.c; sourceTree = "<group>"; };
+		87803B7C2268545800A894BB /* pred_lt3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pred_lt3.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/pred_lt3.c; sourceTree = "<group>"; };
+		87803B7D2268545900A894BB /* qua_gain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = qua_gain.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/qua_gain.c; sourceTree = "<group>"; };
+		87803B7E2268545900A894BB /* gainpred.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gainpred.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/gainpred.c; sourceTree = "<group>"; };
+		87803B7F2268545900A894BB /* vad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vad.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/vad.c; sourceTree = "<group>"; };
+		87803B802268545900A894BB /* cor_func.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cor_func.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/cor_func.c; sourceTree = "<group>"; };
+		87803B812268545900A894BB /* lspdec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lspdec.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/lspdec.c; sourceTree = "<group>"; };
+		87803B822268545900A894BB /* dec_ld8a.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dec_ld8a.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/dec_ld8a.c; sourceTree = "<group>"; };
+		87803B832268545900A894BB /* p_parity.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = p_parity.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/p_parity.c; sourceTree = "<group>"; };
+		87803B842268545900A894BB /* pitch_a.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pitch_a.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/pitch_a.c; sourceTree = "<group>"; };
+		87803B852268545900A894BB /* cod_ld8a.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cod_ld8a.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/cod_ld8a.c; sourceTree = "<group>"; };
+		87803B862268545900A894BB /* lpc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lpc.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/lpc.c; sourceTree = "<group>"; };
+		87803B872268545900A894BB /* dspfunc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dspfunc.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/dspfunc.c; sourceTree = "<group>"; };
+		87803B882268545900A894BB /* pre_proc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pre_proc.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/pre_proc.c; sourceTree = "<group>"; };
+		87803B892268545900A894BB /* dtx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dtx.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/dtx.c; sourceTree = "<group>"; };
+		87803B8A2268545900A894BB /* qua_lsp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = qua_lsp.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/qua_lsp.c; sourceTree = "<group>"; };
+		87803B8B2268545900A894BB /* de_acelp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = de_acelp.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/de_acelp.c; sourceTree = "<group>"; };
+		87803B8C2268545900A894BB /* lspgetq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lspgetq.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/lspgetq.c; sourceTree = "<group>"; };
+		87803B8D2268545900A894BB /* postfilt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = postfilt.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/postfilt.c; sourceTree = "<group>"; };
+		87803B8E2268545900A894BB /* tab_dtx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tab_dtx.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/tab_dtx.c; sourceTree = "<group>"; };
+		87803B8F2268545900A894BB /* dec_lag3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dec_lag3.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/dec_lag3.c; sourceTree = "<group>"; };
+		87803B902268545A00A894BB /* qsidgain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = qsidgain.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/qsidgain.c; sourceTree = "<group>"; };
+		87803B912268545A00A894BB /* filter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = filter.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/filter.c; sourceTree = "<group>"; };
+		87803B922268545A00A894BB /* taming.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = taming.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/taming.c; sourceTree = "<group>"; };
+		87803B932268545A00A894BB /* lpcfunc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lpcfunc.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/lpcfunc.c; sourceTree = "<group>"; };
+		87803B942268545A00A894BB /* acelp_ca.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = acelp_ca.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/acelp_ca.c; sourceTree = "<group>"; };
+		87803B952268545A00A894BB /* dec_gain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dec_gain.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/dec_gain.c; sourceTree = "<group>"; };
+		87803B962268545A00A894BB /* oper_32b.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = oper_32b.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/oper_32b.c; sourceTree = "<group>"; };
+		87803B972268545A00A894BB /* calcexc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = calcexc.c; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/calcexc.c; sourceTree = "<group>"; };
+		87803BBB2268548300A894BB /* octet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = octet.h; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/octet.h; sourceTree = "<group>"; };
+		87803BBC2268548300A894BB /* ld8a.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ld8a.h; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/ld8a.h; sourceTree = "<group>"; };
+		87803BBD2268548300A894BB /* oper_32b.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oper_32b.h; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/oper_32b.h; sourceTree = "<group>"; };
+		87803BBE2268548300A894BB /* tab_dtx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tab_dtx.h; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/tab_dtx.h; sourceTree = "<group>"; };
+		87803BBF2268548300A894BB /* typedef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = typedef.h; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/typedef.h; sourceTree = "<group>"; };
+		87803BC02268548300A894BB /* basic_op.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = basic_op.h; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/basic_op.h; sourceTree = "<group>"; };
+		87803BC12268548300A894BB /* vad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vad.h; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/vad.h; sourceTree = "<group>"; };
+		87803BC22268548300A894BB /* dtx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dtx.h; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/dtx.h; sourceTree = "<group>"; };
+		87803BC32268548300A894BB /* sid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sid.h; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/sid.h; sourceTree = "<group>"; };
+		87803BC42268548300A894BB /* tab_ld8a.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tab_ld8a.h; path = ../../../../vendor/webrtcjni/jni/webrtc/modules/audio_coding/codecs/g729/g729AnnexB/c_codeBA/tab_ld8a.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4129814C17B24923000EAEDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4129815317B24923000EAEDE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B45E0F821F7079B00FB4480 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				87803BC02268548300A894BB /* basic_op.h */,
+				87803BC22268548300A894BB /* dtx.h */,
+				87803BBC2268548300A894BB /* ld8a.h */,
+				87803BBB2268548300A894BB /* octet.h */,
+				87803BBD2268548300A894BB /* oper_32b.h */,
+				87803BC32268548300A894BB /* sid.h */,
+				87803BBE2268548300A894BB /* tab_dtx.h */,
+				87803BC42268548300A894BB /* tab_ld8a.h */,
+				87803BBF2268548300A894BB /* typedef.h */,
+				87803BC12268548300A894BB /* vad.h */,
+			);
+			name = inc;
+			sourceTree = "<group>";
+		};
+		0B45E0F921F707A100FB4480 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				87803B942268545A00A894BB /* acelp_ca.c */,
+				87803B772268545800A894BB /* basic_op.c */,
+				87803B7A2268545800A894BB /* bits.c */,
+				87803B972268545A00A894BB /* calcexc.c */,
+				87803B852268545900A894BB /* cod_ld8a.c */,
+				87803B802268545900A894BB /* cor_func.c */,
+				87803B8B2268545900A894BB /* de_acelp.c */,
+				87803B952268545A00A894BB /* dec_gain.c */,
+				87803B8F2268545900A894BB /* dec_lag3.c */,
+				87803B822268545900A894BB /* dec_ld8a.c */,
+				87803B7B2268545800A894BB /* dec_sid.c */,
+				87803B872268545900A894BB /* dspfunc.c */,
+				87803B892268545900A894BB /* dtx.c */,
+				87803B912268545A00A894BB /* filter.c */,
+				87803B7E2268545900A894BB /* gainpred.c */,
+				87803B862268545900A894BB /* lpc.c */,
+				87803B932268545A00A894BB /* lpcfunc.c */,
+				87803B812268545900A894BB /* lspdec.c */,
+				87803B8C2268545900A894BB /* lspgetq.c */,
+				87803B962268545A00A894BB /* oper_32b.c */,
+				87803B832268545900A894BB /* p_parity.c */,
+				87803B842268545900A894BB /* pitch_a.c */,
+				87803B782268545800A894BB /* post_pro.c */,
+				87803B8D2268545900A894BB /* postfilt.c */,
+				87803B882268545900A894BB /* pre_proc.c */,
+				87803B7C2268545800A894BB /* pred_lt3.c */,
+				87803B902268545A00A894BB /* qsidgain.c */,
+				87803B762268545800A894BB /* qsidlsf.c */,
+				87803B7D2268545900A894BB /* qua_gain.c */,
+				87803B8A2268545900A894BB /* qua_lsp.c */,
+				87803B8E2268545900A894BB /* tab_dtx.c */,
+				87803B752268545800A894BB /* tab_ld8a.c */,
+				87803B922268545A00A894BB /* taming.c */,
+				87803B792268545800A894BB /* util.c */,
+				87803B7F2268545900A894BB /* vad.c */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		4129814617B24923000EAEDE = {
+			isa = PBXGroup;
+			children = (
+				87803B6A226851FC00A894BB /* Config */,
+				0B45E0F921F707A100FB4480 /* src */,
+				0B45E0F821F7079B00FB4480 /* inc */,
+				4129815117B24923000EAEDE /* Frameworks */,
+				4129815017B24923000EAEDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4129815017B24923000EAEDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4129814F17B24923000EAEDE /* liblibwebrtcg729.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4129815117B24923000EAEDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4129815217B24923000EAEDE /* Cocoa.framework */,
+				4129815417B24923000EAEDE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4129815417B24923000EAEDE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4129815517B24923000EAEDE /* AppKit.framework */,
+				4129815617B24923000EAEDE /* CoreData.framework */,
+				4129815717B24923000EAEDE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4129814D17B24923000EAEDE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87803BCD2268548300A894BB /* sid.h in Headers */,
+				87803BC92268548300A894BB /* typedef.h in Headers */,
+				87803BC52268548300A894BB /* octet.h in Headers */,
+				87803BC82268548300A894BB /* tab_dtx.h in Headers */,
+				87803BCC2268548300A894BB /* dtx.h in Headers */,
+				87803BCE2268548400A894BB /* tab_ld8a.h in Headers */,
+				87803BC62268548300A894BB /* ld8a.h in Headers */,
+				87803BCA2268548300A894BB /* basic_op.h in Headers */,
+				87803BC72268548300A894BB /* oper_32b.h in Headers */,
+				87803BCB2268548300A894BB /* vad.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4129814E17B24923000EAEDE /* libwebrtcg729 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4129816017B24923000EAEDE /* Build configuration list for PBXNativeTarget "libwebrtcg729" */;
+			buildPhases = (
+				4129814B17B24923000EAEDE /* Sources */,
+				4129814C17B24923000EAEDE /* Frameworks */,
+				4129814D17B24923000EAEDE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libwebrtcg729;
+			productName = libwebrtcg729;
+			productReference = 4129814F17B24923000EAEDE /* liblibwebrtcg729.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4129814717B24923000EAEDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "";
+			};
+			buildConfigurationList = 4129814A17B24923000EAEDE /* Build configuration list for PBXProject "libwebrtcg729" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 4129814617B24923000EAEDE;
+			productRefGroup = 4129815017B24923000EAEDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4129814E17B24923000EAEDE /* libwebrtcg729 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4129814B17B24923000EAEDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87803BA82268545A00A894BB /* cod_ld8a.c in Sources */,
+				87803BA22268545A00A894BB /* vad.c in Sources */,
+				87803B9F2268545A00A894BB /* pred_lt3.c in Sources */,
+				87803BB72268545A00A894BB /* acelp_ca.c in Sources */,
+				87803BB32268545A00A894BB /* qsidgain.c in Sources */,
+				87803BA72268545A00A894BB /* pitch_a.c in Sources */,
+				87803BA32268545A00A894BB /* cor_func.c in Sources */,
+				87803BAD2268545A00A894BB /* qua_lsp.c in Sources */,
+				87803BA62268545A00A894BB /* p_parity.c in Sources */,
+				87803BA52268545A00A894BB /* dec_ld8a.c in Sources */,
+				87803BB52268545A00A894BB /* taming.c in Sources */,
+				87803BAA2268545A00A894BB /* dspfunc.c in Sources */,
+				87803B9C2268545A00A894BB /* util.c in Sources */,
+				87803BAF2268545A00A894BB /* lspgetq.c in Sources */,
+				87803B9D2268545A00A894BB /* bits.c in Sources */,
+				87803BB12268545A00A894BB /* tab_dtx.c in Sources */,
+				87803BA12268545A00A894BB /* gainpred.c in Sources */,
+				87803BB92268545A00A894BB /* oper_32b.c in Sources */,
+				87803BBA2268545A00A894BB /* calcexc.c in Sources */,
+				87803BAE2268545A00A894BB /* de_acelp.c in Sources */,
+				87803B9A2268545A00A894BB /* basic_op.c in Sources */,
+				87803BA42268545A00A894BB /* lspdec.c in Sources */,
+				87803BB62268545A00A894BB /* lpcfunc.c in Sources */,
+				87803B9B2268545A00A894BB /* post_pro.c in Sources */,
+				87803BB42268545A00A894BB /* filter.c in Sources */,
+				87803B9E2268545A00A894BB /* dec_sid.c in Sources */,
+				87803BAC2268545A00A894BB /* dtx.c in Sources */,
+				87803B992268545A00A894BB /* qsidlsf.c in Sources */,
+				87803BA92268545A00A894BB /* lpc.c in Sources */,
+				87803BB02268545A00A894BB /* postfilt.c in Sources */,
+				87803BB82268545A00A894BB /* dec_gain.c in Sources */,
+				87803BAB2268545A00A894BB /* pre_proc.c in Sources */,
+				87803BB22268545A00A894BB /* dec_lag3.c in Sources */,
+				87803BA02268545A00A894BB /* qua_gain.c in Sources */,
+				87803B982268545A00A894BB /* tab_ld8a.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4129815E17B24923000EAEDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OBJROOT = "$(SRCROOT)/../../../objs/mac";
+				SDKROOT = macosx;
+				SYMROOT = "$(SRCROOT)/../../../libs/mac";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../../vendor/webrtcjni/jni\"";
+			};
+			name = Debug;
+		};
+		4129815F17B24923000EAEDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OBJROOT = "$(SRCROOT)/../../../objs/mac";
+				SDKROOT = macosx;
+				SYMROOT = "$(SRCROOT)/../../../libs/mac";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../../vendor/webrtcjni/jni\"";
+			};
+			name = Release;
+		};
+		4129816117B24923000EAEDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libwebrtcg729/libwebrtcg729-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4129816217B24923000EAEDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libwebrtcg729/libwebrtcg729-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4129814A17B24923000EAEDE /* Build configuration list for PBXProject "libwebrtcg729" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4129815E17B24923000EAEDE /* Debug */,
+				4129815F17B24923000EAEDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4129816017B24923000EAEDE /* Build configuration list for PBXNativeTarget "libwebrtcg729" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4129816117B24923000EAEDE /* Debug */,
+				4129816217B24923000EAEDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4129814717B24923000EAEDE /* Project object */;
+}

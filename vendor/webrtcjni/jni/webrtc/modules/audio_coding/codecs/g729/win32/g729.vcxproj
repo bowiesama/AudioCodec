@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\g729AnnexB\c_codeBA\acelp_ca.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\basic_op.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\bits.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\calcexc.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\cod_ld8a.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\cor_func.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\dec_gain.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\dec_lag3.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\dec_ld8a.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\dec_sid.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\de_acelp.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\dspfunc.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\dtx.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\filter.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\gainpred.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\lpc.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\lpcfunc.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\lspdec.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\lspgetq.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\oper_32b.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\pitch_a.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\postfilt.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\post_pro.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\pred_lt3.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\pre_proc.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\p_parity.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\qsidgain.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\qsidlsf.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\qua_gain.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\qua_lsp.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\tab_dtx.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\tab_ld8a.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\taming.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\util.c" />
+    <ClCompile Include="..\g729AnnexB\c_codeBA\vad.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\g729AnnexB\c_codeBA\basic_op.h" />
+    <ClInclude Include="..\g729AnnexB\c_codeBA\dtx.h" />
+    <ClInclude Include="..\g729AnnexB\c_codeBA\ld8a.h" />
+    <ClInclude Include="..\g729AnnexB\c_codeBA\octet.h" />
+    <ClInclude Include="..\g729AnnexB\c_codeBA\oper_32b.h" />
+    <ClInclude Include="..\g729AnnexB\c_codeBA\sid.h" />
+    <ClInclude Include="..\g729AnnexB\c_codeBA\tab_dtx.h" />
+    <ClInclude Include="..\g729AnnexB\c_codeBA\tab_ld8a.h" />
+    <ClInclude Include="..\g729AnnexB\c_codeBA\typedef.h" />
+    <ClInclude Include="..\g729AnnexB\c_codeBA\vad.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8CA1C4EB-9C86-42E3-9D64-DA13F022F190}</ProjectGuid>
+    <RootNamespace>g729</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\..\..\..\..\..\..\..\mediaengine\libs\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\..\..\..\..\..\..\..\..\mediaengine\objs\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\..\..\..\..\..\..\..\..\mediaengine\libs\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\..\..\..\..\..\..\..\..\mediaengine\objs\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\..\..\..\..\..\..\mediaengine\libs\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\..\..\..\..\..\..\..\..\mediaengine\objs\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\..\..\..\..\..\..\..\..\mediaengine\libs\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\..\..\..\..\..\..\..\..\mediaengine\objs\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\..\..\..\..\..\..\vendor\security\include;../../../../../../;../../../../../../common_audio/signal_processing/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\..\..\..\..\..\..\vendor\security\include;../../../../../../;../../../../../../common_audio/signal_processing/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>.\..\..\..\..\..\..\vendor\security\include;../../../../../../;../../../../../../common_audio/signal_processing/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>.\..\..\..\..\..\..\vendor\security\include;../../../../../../;../../../../../../common_audio/signal_processing/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
