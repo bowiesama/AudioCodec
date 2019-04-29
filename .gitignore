@@ -54,7 +54,7 @@ obj/
 *.sap
 *.winmd
 *.pdb
-XCBuildData/
+/XCBuildData/
 
 NALToDecoder0_dump.*
 
