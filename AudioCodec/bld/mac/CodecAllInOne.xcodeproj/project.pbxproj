@@ -10,6 +10,8 @@
 		41C7216917B2463D00B57F53 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C7216817B2463D00B57F53 /* Cocoa.framework */; };
 		41C7217317B2463D00B57F53 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41C7217117B2463D00B57F53 /* InfoPlist.strings */; };
 		874688932282BA5E004761B9 /* Config in Resources */ = {isa = PBXBuildFile; fileRef = 874688922282BA5E004761B9 /* Config */; };
+		874688CC2282C249004761B9 /* CodecAllInOneUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 874688CB2282C249004761B9 /* CodecAllInOneUtil.h */; };
+		874688CE2282C25D004761B9 /* CodecAllInOneUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 874688CD2282C25D004761B9 /* CodecAllInOneUtil.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		874688A72282BABC004761B9 /* libg7221.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libg7221.xcodeproj; path = libg7221/libg7221.xcodeproj; sourceTree = "<group>"; };
 		874688AD2282BAC9004761B9 /* libwebrtcilbc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libwebrtcilbc.xcodeproj; path = libilbc/libwebrtcilbc.xcodeproj; sourceTree = "<group>"; };
 		874688B32282BAD3004761B9 /* libopus110.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libopus110.xcodeproj; path = libopus110/libopus110.xcodeproj; sourceTree = "<group>"; };
+		874688CB2282C249004761B9 /* CodecAllInOneUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CodecAllInOneUtil.h; path = ../../../AudioCodec/src/CodecAllInOneUtil.h; sourceTree = "<group>"; };
+		874688CD2282C25D004761B9 /* CodecAllInOneUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CodecAllInOneUtil.cpp; path = ../../../AudioCodec/src/CodecAllInOneUtil.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,8 @@
 		41D00A7917B87829000F92AD /* common */ = {
 			isa = PBXGroup;
 			children = (
+				874688CB2282C249004761B9 /* CodecAllInOneUtil.h */,
+				874688CD2282C25D004761B9 /* CodecAllInOneUtil.cpp */,
 			);
 			name = common;
 			path = ../../../src/wbxaudiocodec/common;
@@ -229,6 +235,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				874688CC2282C249004761B9 /* CodecAllInOneUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				874688CE2282C25D004761B9 /* CodecAllInOneUtil.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,22 +470,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OBJROOT = "$(SRCROOT)/objs/mac";
-				OTHER_LDFLAGS = (
-					"-lwbx_vad",
-					"-lwbx_resample",
-					"-lwbx_cng",
-					"-llibg722",
-					"-llibwebrtcspl",
-					"-llibopus110",
-					"-llibwebrtcilbc",
-					"-llibg711",
-					"-framework",
-					wmeutil,
-					"-framework",
-					util,
-					"-llibwebrtcg729",
-					"-llibg7221",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bowchen.CodecAllInOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SYMROOT = "$(SRCROOT)/build/mac";
@@ -504,22 +497,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OBJROOT = "$(SRCROOT)/objs/mac";
-				OTHER_LDFLAGS = (
-					"-lwbx_vad",
-					"-lwbx_resample",
-					"-lwbx_cng",
-					"-llibg722",
-					"-llibwebrtcspl",
-					"-llibopus110",
-					"-llibwebrtcilbc",
-					"-llibg711",
-					"-framework",
-					wmeutil,
-					"-framework",
-					util,
-					"-llibwebrtcg729",
-					"-llibg7221",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bowchen.CodecAllInOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SYMROOT = "$(SRCROOT)/build/mac";
