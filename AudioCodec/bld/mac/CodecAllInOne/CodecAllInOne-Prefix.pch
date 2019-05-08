@@ -1,0 +1,10 @@
+//
+// Prefix header for all source files of the 'wbxaecodec' target in the 'wbxaecodec' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+#define NO_SUPPORT_ISAC
+#define MACOS 1
+#define WSE_WBX_UNIFIED_TRACE
